@@ -1,2 +1,2 @@
-# flaregood.github.io
-Personal Blog
+# That's it
+My personal page on the internet
