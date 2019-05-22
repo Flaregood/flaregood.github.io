@@ -7,9 +7,25 @@
 
     <link rel="stylesheet" type="text/css" href="./css/main.css">
     <link rel="stylesheet" type="text/css" href="./css/modifiers.css">
+    <link rel="stylesheet" type="text/css" href="./css/menuIcons.css">
     <title>Omar Boninsegna</title>
 </head>
-<body>
-    So, yeah. That's it. My Page.     
+<body class='no-margin'>
+    <div class='page-container'>
+        <div class='lateral-menu'>
+        <button class="hamburger hamburger" type="button">
+            <span class="hamburger-box">
+                <span class="hamburger-inner"></span>
+            </span>
+        </button>
+        </div>
+    </div>  
 </body>
+
+<script>
+    function menuButtonClick(){
+        document.querySelector('.hamburger').classList.toggle('is-active');
+    }
+</script>
+
 </html>
