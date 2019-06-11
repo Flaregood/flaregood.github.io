@@ -1,0 +1,9 @@
+.my-ads-container {
+	display: flex;
+}
+
+.my-ads-column {
+	display: flex;
+    flex-flow: column;
+    overflow: hidden;
+}
