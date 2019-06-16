@@ -1,8 +1,3 @@
-/**
-*	Hendrie (HTML)
-*	Copyright © Hendrie by beshleyua. All Rights Reserved.
-**/
-
 $(function () {
 	'use strict';
 	
@@ -63,6 +58,12 @@ $(function () {
 			return false;
 		});
 	}
+
+	/* OB Logo */
+	$(".logo a").click(function() {
+		$("html, body").animate({ scrollTop: 0 }, "slow");
+		return false;
+	  });
 
 	/* Open Top Menu */
 	$('.page').on('click', '.menu-btn', function(){

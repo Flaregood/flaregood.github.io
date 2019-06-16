@@ -298,7 +298,10 @@
 /* 3. Started */
 .section.started {
 	padding: 0;
-	background: #ede574;
+	background:url(../images/slide-bg-1.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	
 }
 
 .section.started .slide {
