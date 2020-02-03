@@ -1,0 +1,24 @@
+.top-container {
+    display: flex;
+    height: 100vh;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.t-shirt-component {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    align-items: center;
+    height: 100%;
+
+}
+
+.add-to-cart {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, .05);  
+    backdrop-filter: blur(5px);
+}
